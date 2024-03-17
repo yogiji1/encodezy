@@ -42,7 +42,7 @@ logging.basicConfig(
     handlers=[
         RotatingFileHandler(
             LOG_FILE_NAME,
-            maxBytes=2097152000,
+            maxBytes=4000000000,
             backupCount=10
         ),
         logging.StreamHandler()
